@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ShipIt">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="assets/styles/style.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- build:js vendor.js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js script.js -->
+    <script src="js/angularConfig.js"></script>
+    <script src="js/angularApp.js"></script>
+
+    <script src="js/controllers/controller.js"></script>
+
+    <script src="js/directives/directive.js"></script>
+
+    <script src="js/services/service.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<h1>Application</h1>
+<div ng-view></div>
+</body>
+</html>
